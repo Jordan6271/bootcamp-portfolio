@@ -6,7 +6,7 @@ const Routes = () => {
     return (
         <Fragment>
             <Switch>
-                <Route exact path="/" />
+                <Route exact path="/" component={Sitemap.Home} />
                 <Route exact path="/week1" component={Sitemap.BasicWebPage} />
                 <Route exact path="/week2" component={Sitemap.HobbyWebsite} />
                 <Route exact path="/week4" component={Sitemap.JavaScriptQuiz} />
