@@ -7,7 +7,7 @@ const carouselImages = Images;
 const CaesarCipher = () => {
     return (
         <Fragment>
-            <h1>CaesarCipher</h1>
+            <h1>Caesar Cipher</h1>
             <div id="intro">
                 <h2>Project Overview</h2>
                 <Carousel images={carouselImages} />
