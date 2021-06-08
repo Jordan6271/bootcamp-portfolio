@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Images from "../images/Images";
+import "./Carousel.css";
 
-const myCarousel = () => {
-    return (
-        <Carousel>
-            <Carousel.Item>
-                <img src={Images[0][0]} alt="Git" />
-            </Carousel.Item>
-        </Carousel>
-    );
+const MyCarousel = (props) => {
+    const [images, setImages] = useState([]);
+
+    useEffect(() => {
+        setImages(props.images);
+    }, [props.images]);
+
+    const buildImages = () => {
+        return images.map((current) => {
+            return (
+                <Carousel.Item key={current.id}>
+                    <img
+                        src={current.image}
+                        alt={current.description}
+                        className="w-100"
+                    />
+                </Carousel.Item>
+            );
+        });
+    };
+
+    return <Carousel className="mx-auto w-75">{buildImages()}</Carousel>;
 };
 
-export default myCarousel;
+export default MyCarousel;

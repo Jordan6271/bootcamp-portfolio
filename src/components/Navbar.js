@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
-const myNavbar = () => {
+const MyNavbar = () => {
     return (
         <Fragment>
             <Navbar bg="dark" variant="dark">
@@ -55,4 +55,4 @@ const myNavbar = () => {
     );
 };
 
-export default myNavbar;
+export default MyNavbar;

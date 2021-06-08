@@ -1,6 +1,9 @@
 import Git from "./git.png";
 import Unix from "./unix.png";
 
-const Images = [Git, Unix];
+const Week1 = [
+    { id: 1, image: Git, description: `Git and GitHub Workflow` },
+    { id: 2, image: Unix, description: `Unix Shell` },
+];
 
-export default Images;
+export default Week1;
