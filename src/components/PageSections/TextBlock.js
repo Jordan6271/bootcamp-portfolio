@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 
-const Difficulty = (props) => {
+const TextBlock = (props) => {
     return (
         <Fragment>
-            <h2>Difficulties</h2>
+            <h2>{props.title}</h2>
             <p>{props.text}</p>
         </Fragment>
     );
 };
 
-export default Difficulty;
+export default TextBlock;
