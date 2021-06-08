@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "./Carousel.css";
 
 const MyCarousel = (props) => {
     const [images, setImages] = useState([]);
