@@ -1,7 +1,20 @@
 import React, { Fragment } from "react";
+import PageData from "../data/Noteable";
+import PageSections from "../components/PageSections/PageSections";
 
 const Noteable = () => {
-    return <Fragment>Noteable</Fragment>;
+    return (
+        <Fragment>
+            <h1>Noteable</h1>
+            <PageSections
+                carouselImages={PageData.images}
+                introText={PageData.intro}
+                difficultyText={PageData.difficulty}
+                progressionText={PageData.progression}
+                links={PageData.links}
+            />
+        </Fragment>
+    );
 };
 
 export default Noteable;

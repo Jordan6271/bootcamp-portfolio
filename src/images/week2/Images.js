@@ -3,7 +3,7 @@ import FlexDesktop from "./flex-desktop.png";
 import FlexMobile from "./flex-mobile.png";
 import Consistency from "./consistency.png";
 
-const Week2 = [
+const Images = [
     {
         id: 1,
         image: SiteIntro,
@@ -18,4 +18,4 @@ const Week2 = [
     },
 ];
 
-export default Week2;
+export default Images;
