@@ -9,8 +9,8 @@ const difficultyText = ``;
 const progressionText = ``;
 
 const links = {
-    ghPages: ``,
-    repo: ``,
+    ghPages: `https://jordan6271.github.io/bootcamp-project-week10/#/`,
+    repo: `https://github.com/Jordan6271/bootcamp-project-week10`,
 };
 
 const pageData = {
