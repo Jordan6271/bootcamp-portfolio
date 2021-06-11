@@ -10,7 +10,7 @@ const progressionText = ``;
 
 const links = {
     ghPages: ``,
-    repo: ``,
+    repo: `https://github.com/Jordan6271/bootcamp-project-week13`,
 };
 
 const pageData = {
