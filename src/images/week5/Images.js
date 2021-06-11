@@ -7,7 +7,7 @@ import HardFight from "./hard-fight.png";
 import Death from "./death.png";
 import WinGame from "./win-game.png";
 
-const Week5 = [
+const Images = [
     { id: 1, image: Intro, description: `Game Intro Screen` },
     { id: 2, image: StartGame, description: `Game Start` },
     { id: 3, image: ItemPickup, description: `Item Pickup` },
@@ -18,4 +18,4 @@ const Week5 = [
     { id: 8, image: WinGame, description: `Win Screen` },
 ];
 
-export default Week5;
+export default Images;
