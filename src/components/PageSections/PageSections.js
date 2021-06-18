@@ -26,7 +26,10 @@ const PageSections = (props) => {
             <Intro images={props.carouselImages} text={props.introText} />
             <TextBlock title="Difficulties" text={props.difficultyText} />
             <TextBlock title="Progression" text={props.progressionText} />
-            <Links links={props.links} />
+            <Links
+                heroku={props.links.heroku ? true : false}
+                links={props.links}
+            />
         </Fragment>
     );
 };

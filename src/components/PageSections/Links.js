@@ -7,7 +7,9 @@ const Links = (props) => {
             <p>
                 In case you're interested in having a look yourself,{` `}
                 <a
-                    href={props.links.ghPages}
+                    href={
+                        props.heroku ? props.links.heroku : props.links.ghPages
+                    }
                     target="_blank"
                     class="text-danger"
                     rel="noreferrer"
@@ -15,7 +17,10 @@ const Links = (props) => {
                     here is a link
                 </a>
                 {` `}
-                to the project on GitHub pages, and{` `}
+                {props.heroku
+                    ? `to the project API on Heroku, and`
+                    : `to the project on GitHub pages, and`}
+                {` `}
                 <a
                     href={props.links.repo}
                     target="_blank"
