@@ -4,30 +4,18 @@ import Intro from "./Intro";
 import Links from "./Links";
 
 const PageSections = (props) => {
-    return props.home ? (
+    return (
         <Fragment>
-            <TextBlock title={props.aboutMe.title} text={props.aboutMe.text} />
-            <TextBlock
-                title={props.currentWork.title}
-                text={props.currentWork.text}
+            <Intro
+                images={props.carouselImages}
+                text={props.introText}
+                fullStack={props.fullStack}
             />
-            <TextBlock
-                title={props.pastExperience.title}
-                text={props.pastExperience.text}
-            />
-            <TextBlock
-                title={props.portfolioInfo.title}
-                text={props.portfolioInfo.info}
-            />
-            <TextBlock text={props.portfolioInfo.note} />
-        </Fragment>
-    ) : (
-        <Fragment>
-            <Intro images={props.carouselImages} text={props.introText} />
             <TextBlock title="Difficulties" text={props.difficultyText} />
             <TextBlock title="Progression" text={props.progressionText} />
             <Links
-                heroku={props.links.heroku ? true : false}
+                fullStack={props.fullStack}
+                backend={props.backend}
                 links={props.links}
             />
         </Fragment>

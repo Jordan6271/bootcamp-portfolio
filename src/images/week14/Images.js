@@ -1,7 +1,6 @@
-import WeatherWatch from "../week12/weather-watch.png";
+import Frontend from "./frontend/Images";
+import Backend from "./backend/Images";
 
-const Images = [
-    { id: 1, image: WeatherWatch, description: `Weather Watch App` },
-];
+const Images = { frontend: Frontend, backend: Backend };
 
 export default Images;

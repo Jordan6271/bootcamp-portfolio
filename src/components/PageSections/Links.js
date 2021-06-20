@@ -5,10 +5,27 @@ const Links = (props) => {
         <Fragment>
             <h2>Links to Project</h2>
             <p>
-                In case you're interested in having a look yourself,{` `}
+                In case you're interested in having a look yourself,
+                {props.fullStack ? (
+                    <span>
+                        {` `}
+                        <a
+                            href={props.links.heroku}
+                            target="_blank"
+                            class="text-danger"
+                            rel="noreferrer"
+                        >
+                            here is a link
+                        </a>
+                        {` `}to the project API on Heroku,
+                    </span>
+                ) : (
+                    <Fragment />
+                )}
+                {` `}
                 <a
                     href={
-                        props.heroku ? props.links.heroku : props.links.ghPages
+                        props.backend ? props.links.heroku : props.links.ghPages
                     }
                     target="_blank"
                     class="text-danger"
@@ -17,7 +34,7 @@ const Links = (props) => {
                     here is a link
                 </a>
                 {` `}
-                {props.heroku
+                {props.backend
                     ? `to the project API on Heroku, and`
                     : `to the project on GitHub pages, and`}
                 {` `}
