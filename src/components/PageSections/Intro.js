@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Carousel from "../Carousel";
+import Carousel from "../Carousel/Carousel";
 
 const Intro = (props) => {
     return (

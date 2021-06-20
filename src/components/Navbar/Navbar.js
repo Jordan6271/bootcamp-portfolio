@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import "./Navbar.css";
 
 const MyNavbar = () => {
     return (
         <Fragment>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" className="navbar">
                 <Navbar.Brand href="/" className="mx-5">
                     My Portfolio
                 </Navbar.Brand>

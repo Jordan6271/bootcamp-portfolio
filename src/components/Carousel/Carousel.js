@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import ToggleButton from "./ToggleButton/ToggleButton";
+import ToggleButton from "../ToggleButton/ToggleButton";
 
 const MyCarousel = (props) => {
     const [images, setImages] = useState([]);
