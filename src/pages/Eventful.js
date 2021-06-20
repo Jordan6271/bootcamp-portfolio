@@ -7,6 +7,7 @@ const Eventful = () => {
         <Fragment>
             <h1>Eventful</h1>
             <PageSections
+                fullStack={true}
                 carouselImages={PageData.images}
                 introText={PageData.intro}
                 difficultyText={PageData.difficulty}

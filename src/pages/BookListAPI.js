@@ -7,6 +7,7 @@ const BookListAPI = () => {
         <Fragment>
             <h1>Book List API</h1>
             <PageSections
+                backend={true}
                 carouselImages={PageData.images}
                 introText={PageData.intro}
                 difficultyText={PageData.difficulty}

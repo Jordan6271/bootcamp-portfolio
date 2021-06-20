@@ -1,0 +1,11 @@
+.toggle-button-frontend-checked .toggle-button-backend,
+.toggle-button-backend-checked .toggle-button-frontend {
+    opacity: 0.3;
+}
+
+.toggle-button-frontend-checked button,
+.toggle-button-backend-checked button {
+    transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-in-out;
+}

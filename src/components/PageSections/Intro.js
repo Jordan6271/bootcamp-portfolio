@@ -5,7 +5,7 @@ const Intro = (props) => {
     return (
         <Fragment>
             <h2>Project Overview</h2>
-            <Carousel images={props.images} />
+            <Carousel images={props.images} fullStack={props.fullStack} />
             <p>{props.text}</p>
         </Fragment>
     );

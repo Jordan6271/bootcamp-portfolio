@@ -1,11 +1,10 @@
 import React from "react";
 import PageData from "../data/Home";
-import PageSections from "../components/PageSections/PageSections";
+import HomePage from "../components/PageSections/HomePage";
 
 const Home = () => {
     return (
-        <PageSections
-            home={true}
+        <HomePage
             aboutMe={PageData.aboutMe}
             currentWork={PageData.currentWork}
             pastExperience={PageData.pastExperience}
