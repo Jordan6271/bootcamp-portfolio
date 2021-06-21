@@ -1,7 +1,4 @@
 .portfolio {
     min-height: 90vh;
-}
-
-.text-red {
-    color: #b71c1c;
+    background-image: linear-gradient(to right, #212529, #6c757d, #212529);
 }

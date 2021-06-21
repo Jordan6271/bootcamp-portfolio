@@ -22,11 +22,6 @@ const Routes = () => {
                 <Route exact path="/week12" component={Sitemap.WeatherWatch} />
                 <Route exact path="/week13" component={Sitemap.BookListAPI} />
                 <Route exact path="/week14" component={Sitemap.Eventful} />
-                <Route
-                    exact
-                    path="/group-project"
-                    component={Sitemap.RecipeBook}
-                />
                 <Route component={Sitemap.NotFound} />
             </Switch>
         </Fragment>
