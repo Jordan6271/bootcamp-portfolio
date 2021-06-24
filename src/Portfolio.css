@@ -1,7 +1,18 @@
 .portfolio {
     min-height: 90vh;
+    background-image: linear-gradient(to right, #212529, #6c757d, #212529);
 }
 
-.text-red {
-    color: #b71c1c;
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #292b2c;
+}
+::-webkit-scrollbar-thumb {
+    background: #930000;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #c30000;
 }

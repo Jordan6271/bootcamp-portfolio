@@ -1,3 +1,17 @@
 .navbar {
-    height: 10vh;
+    min-height: 10vh;
+}
+
+.navbar .dropdown-menu {
+    background-color: #6c757d;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.navbar .dropdown-menu .nav-link {
+    border-radius: 8px;
+}
+
+.navbar .dropdown-menu .nav-link:hover {
+    background-color: #212529;
 }

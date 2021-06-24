@@ -1,0 +1,27 @@
+.carousel {
+    height: 500px;
+}
+
+.carousel-image {
+    max-height: 425px;
+}
+
+.carousel .carousel-indicators li {
+    height: 10px;
+    width: 50px;
+    margin: auto;
+    background-color: #212529;
+    border-radius: 12px;
+}
+
+.carousel .carousel-indicators li:hover {
+    background-color: #6c757d;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #930000;
+}
+
+.carousel .carousel-indicators .active:hover {
+    background-color: #c30000;
+}

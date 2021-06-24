@@ -7,11 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Portfolio = () => {
     return (
-        <div className="portfolio bg-secondary">
+        <div className="portfolio">
             <Router>
                 <Navbar />
                 <Switch>
-                    <div className="portfolio w-75 justify-content-center m-auto row bg-dark text-red text-center rounded">
+                    <div className="w-75 justify-content-center m-auto row text-light text-center pt-4">
                         <Route component={Routes} />
                     </div>
                 </Switch>
