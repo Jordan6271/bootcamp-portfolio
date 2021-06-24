@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 const Links = (props) => {
     return (
-        <Fragment>
+        <div className="pb-3">
             <h2>Links to Project</h2>
             <p>
                 In case you're interested in having a look yourself,
@@ -49,7 +49,7 @@ const Links = (props) => {
                 {` `}
                 to the repository files.
             </p>
-        </Fragment>
+        </div>
     );
 };
 

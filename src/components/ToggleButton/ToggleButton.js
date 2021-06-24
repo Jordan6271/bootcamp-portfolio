@@ -15,7 +15,7 @@ const ToggleButton = (props) => {
 
     return (
         <div
-            className={`toggle-button ${
+            className={`toggle-button mb-4 ${
                 props.images === frontendImages
                     ? `toggle-button-frontend-checked`
                     : `toggle-button-backend-checked`
