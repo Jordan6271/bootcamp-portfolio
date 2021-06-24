@@ -1,4 +1,3 @@
-import Home from "./pages/Home";
 import BasicWebPage from "./pages/BasicWebPage";
 import HobbyWebsite from "./pages/HobbyWebsite";
 import JavaScriptQuiz from "./pages/JavaScriptQuiz";
@@ -13,7 +12,6 @@ import Eventful from "./pages/Eventful";
 import NotFound from "./pages/NotFound";
 
 const Sitemap = {
-    Home,
     BasicWebPage,
     HobbyWebsite,
     JavaScriptQuiz,

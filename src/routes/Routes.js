@@ -1,12 +1,11 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Sitemap from "../Sitemap";
 
 const Routes = () => {
     return (
         <Fragment>
             <Switch>
-                <Route exact path="/" component={Sitemap.Home} />
                 <Route exact path="/week1" component={Sitemap.BasicWebPage} />
                 <Route exact path="/week2" component={Sitemap.HobbyWebsite} />
                 <Route exact path="/week4" component={Sitemap.JavaScriptQuiz} />
