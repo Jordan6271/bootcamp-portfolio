@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 import Sitemap from "../Sitemap";
 
 const Routes = () => {
