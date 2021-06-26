@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import React, { Fragment } from "react";
 import { Switch, Route } from "react-router-dom";
 import Sitemap from "../Sitemap";
@@ -21,7 +22,12 @@ const Routes = () => {
                 <Route exact path="/week12" component={Sitemap.WeatherWatch} />
                 <Route exact path="/week13" component={Sitemap.BookListAPI} />
                 <Route exact path="/week14" component={Sitemap.Eventful} />
-                <Route component={Sitemap.NotFound} />
+                {window.location.pathname === `/bootcamp-portfolio/` &&
+                window.location.hash === `#/` ? (
+                    <Route component={Sitemap.Home} />
+                ) : (
+                    <Route component={Sitemap.NotFound} />
+                )}
             </Switch>
         </Fragment>
     );
