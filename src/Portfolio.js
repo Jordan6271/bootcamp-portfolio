@@ -20,10 +20,7 @@ const Portfolio = () => {
                                 component={Home}
                                 basename={`/bootcamp-portfolio`}
                             />
-                            <Route
-                                component={Routes}
-                                basename={`/bootcamp-portfolio`}
-                            />
+                            <Route component={Routes} />
                         </div>
                     </Switch>
                 </Fragment>
