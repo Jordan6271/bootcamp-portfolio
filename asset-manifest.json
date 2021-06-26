@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bootcamp-portfolio/static/css/main.d82bb7f3.chunk.css",
+    "main.css": "/bootcamp-portfolio/static/css/main.04153b68.chunk.css",
     "main.js": "/bootcamp-portfolio/static/js/main.be59e7bf.chunk.js",
     "main.js.map": "/bootcamp-portfolio/static/js/main.be59e7bf.chunk.js.map",
     "runtime-main.js": "/bootcamp-portfolio/static/js/runtime-main.a90812f2.js",
@@ -10,7 +10,7 @@
     "static/js/2.c94028c1.chunk.js.map": "/bootcamp-portfolio/static/js/2.c94028c1.chunk.js.map",
     "index.html": "/bootcamp-portfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/bootcamp-portfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.d82bb7f3.chunk.css.map": "/bootcamp-portfolio/static/css/main.d82bb7f3.chunk.css.map",
+    "static/css/main.04153b68.chunk.css.map": "/bootcamp-portfolio/static/css/main.04153b68.chunk.css.map",
     "static/js/2.c94028c1.chunk.js.LICENSE.txt": "/bootcamp-portfolio/static/js/2.c94028c1.chunk.js.LICENSE.txt",
     "static/media/add-event-filled-in.b3fd7ac2.png": "/bootcamp-portfolio/static/media/add-event-filled-in.b3fd7ac2.png",
     "static/media/add-event-form.fba9e15b.png": "/bootcamp-portfolio/static/media/add-event-form.fba9e15b.png",
@@ -85,7 +85,7 @@
     "static/js/runtime-main.a90812f2.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.c94028c1.chunk.js",
-    "static/css/main.d82bb7f3.chunk.css",
+    "static/css/main.04153b68.chunk.css",
     "static/js/main.be59e7bf.chunk.js"
   ]
 }
