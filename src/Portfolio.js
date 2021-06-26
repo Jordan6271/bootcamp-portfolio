@@ -14,12 +14,7 @@ const Portfolio = () => {
                     <Navbar />
                     <Switch>
                         <div className="w-75 justify-content-center m-auto row text-light text-center pt-4">
-                            <Route
-                                exact
-                                path="/"
-                                component={Home}
-                                basename={`/bootcamp-portfolio`}
-                            />
+                            <Route exact path="/" component={Home} />
                             <Route component={Routes} />
                         </div>
                     </Switch>
