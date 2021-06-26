@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
-const Noteable = () => {
+const NotFound = () => {
     return <Fragment>404 - Sorry, this page was not found</Fragment>;
 };
 
-export default Noteable;
+export default NotFound;
