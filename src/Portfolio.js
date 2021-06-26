@@ -12,10 +12,18 @@ const Portfolio = () => {
             <Router>
                 <Fragment>
                     <Navbar />
-                    <Switch basename={`/bootcamp-portfolio`}>
+                    <Switch>
                         <div className="w-75 justify-content-center m-auto row text-light text-center pt-4">
-                            <Route exact path="/" component={Home} />
-                            <Route component={Routes} />
+                            <Route
+                                exact
+                                path="/"
+                                component={Home}
+                                basename={`/bootcamp-portfolio`}
+                            />
+                            <Route
+                                component={Routes}
+                                basename={`/bootcamp-portfolio`}
+                            />
                         </div>
                     </Switch>
                 </Fragment>
