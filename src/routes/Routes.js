@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Sitemap from "../Sitemap";
 
 const Routes = () => {
     return (
-        <Fragment>
+        <section>
             <Switch>
                 <Route exact path="/week1" component={Sitemap.BasicWebPage} />
                 <Route exact path="/week2" component={Sitemap.HobbyWebsite} />
@@ -23,7 +23,7 @@ const Routes = () => {
                 <Route exact path="/week14" component={Sitemap.Eventful} />
                 <Route component={Sitemap.NotFound} />
             </Switch>
-        </Fragment>
+        </section>
     );
 };
 
