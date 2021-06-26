@@ -15,3 +15,7 @@
 .navbar .dropdown-menu .nav-link:hover {
     background-color: #212529;
 }
+
+.navbar .dropdown-menu .active {
+    background-color: #930000;
+}
