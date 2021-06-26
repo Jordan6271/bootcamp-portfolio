@@ -9,12 +9,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Portfolio = () => {
     return (
         <div className="portfolio">
-            <Router>
+            <Router basename={`/bootcamp-portfolio`}>
                 <Fragment>
                     <Navbar />
                     <Switch>
                         <div className="w-75 justify-content-center m-auto row text-light text-center pt-4">
-                            <Route exact path="/#/" component={Home} />
+                            <Route exact path="/" component={Home} />
                             <Route component={Routes} />
                         </div>
                     </Switch>
